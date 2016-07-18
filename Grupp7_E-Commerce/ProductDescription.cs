@@ -5,10 +5,9 @@ using System.Text;
 
 namespace Grupp7_E_Commerce
 {
-    public class Customer : User
+    abstract public class ProductDescription
     {
-
-        public string shippingDetails
+        public string color
         {
             get
             {
@@ -20,7 +19,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public ShoppingCart ShoppingCart
+        public string category
         {
             get
             {
@@ -32,7 +31,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public CustomerType customerType
+        public double weight
         {
             get
             {
@@ -44,7 +43,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public int billingDetails
+        public int size
         {
             get
             {
@@ -56,7 +55,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public Orders Orders
+        public string name
         {
             get
             {
@@ -68,19 +67,16 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public void register()
+        public ProductDescription description
         {
-            throw new System.NotImplementedException();
-        }
+            get
+            {
+                throw new System.NotImplementedException();
+            }
 
-        public void login()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void updateProfile()
-        {
-            throw new System.NotImplementedException();
+            set
+            {
+            }
         }
     }
 }

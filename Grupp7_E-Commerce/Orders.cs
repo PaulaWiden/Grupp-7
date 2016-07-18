@@ -5,10 +5,9 @@ using System.Text;
 
 namespace Grupp7_E_Commerce
 {
-    public class Customer : User
+    public class Orders
     {
-
-        public string shippingDetails
+        public int orderId
         {
             get
             {
@@ -20,7 +19,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public ShoppingCart ShoppingCart
+        public DateTime dateCreated
         {
             get
             {
@@ -32,7 +31,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public CustomerType customerType
+        public DateTime dateShipped
         {
             get
             {
@@ -44,7 +43,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public int billingDetails
+        public string customerName
         {
             get
             {
@@ -56,7 +55,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public Orders Orders
+        public int customerId
         {
             get
             {
@@ -68,17 +67,43 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public void register()
+        public string status
         {
-            throw new System.NotImplementedException();
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
         }
 
-        public void login()
+        public int shippingId
         {
-            throw new System.NotImplementedException();
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
         }
 
-        public void updateProfile()
+        public ShippingInfo ShippingInfo
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public void placeOrder()
         {
             throw new System.NotImplementedException();
         }

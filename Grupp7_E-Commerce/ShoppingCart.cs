@@ -19,7 +19,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public decimal totalsum
+        public money totalsum
         {
             get
             {
@@ -31,17 +31,56 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public void Payment()
+        public DateTime dateTime
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public int cartId
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public bool checkOut()
         {
             throw new System.NotImplementedException();
         }
 
-        public void CalculateTax()
+        public void removeProduct()
         {
             throw new System.NotImplementedException();
         }
 
-        public void CalculateShipping()
+        public void addProduct()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void updateQuantity()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void definePromo()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void viewCartDetails()
         {
             throw new System.NotImplementedException();
         }

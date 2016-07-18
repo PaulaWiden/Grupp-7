@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Grupp7_E_Commerce
 {
-    abstract public class User
+    public class ShippingInfo
     {
-        public int userId
+        public int shippingId
         {
             get
             {
@@ -19,7 +19,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public string username
+        public money shippingCost
         {
             get
             {
@@ -31,7 +31,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public string password
+        public string shippingType
         {
             get
             {
@@ -43,36 +43,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public bool loginStatus
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public string email
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public bool verifyLogIn()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public bool isAdmin()
+        public void updateShippingInfo()
         {
             throw new System.NotImplementedException();
         }

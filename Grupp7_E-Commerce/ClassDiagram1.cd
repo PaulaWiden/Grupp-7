@@ -1,102 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Grupp7_E_Commerce.Program" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="Grupp7_E_Commerce.User">
+    <Position X="2" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.Person">
-    <Position X="2.75" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAgA=</HashCode>
+      <HashCode>AAAAQAAAAAAAAAAgCAAAAAEAAAAAAAgAAAAAAgCAAAA=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grupp7_E_Commerce.Product">
-    <Position X="7.5" Y="1.25" Width="1.5" />
+    <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAQAAAAAAEAACgAAAIAAAAAiA=</HashCode>
+      <HashCode>AAABABAAAAAAAAAAAAAAQAABAAAAAACAAAAAAAAAACA=</HashCode>
       <FileName>Product.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductDescription" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Grupp7_E_Commerce.ShoppingCart">
-    <Position X="10.75" Y="1.25" Width="1.5" />
+    <Position X="2" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAAAAAAAAAIAAEBAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <HashCode>AAAIAAAEAAAAAgAAABCAEAAABEAAAAAAAAAIAAABAAA=</HashCode>
       <FileName>ShoppingCart.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grupp7_E_Commerce.Admin">
-    <Position X="1.75" Y="3.5" Width="1.5" />
+    <Position X="1.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Admin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grupp7_E_Commerce.Customer">
-    <Position X="4" Y="3.5" Width="1.5" />
+    <Position X="3" Y="3.5" Width="1.5" />
+    <AssociationLine Name="ShoppingCart" Type="Grupp7_E_Commerce.ShoppingCart">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.114" Y="0.126" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Orders" Type="Grupp7_E_Commerce.Orders">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.765" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAAAAAAAAAAAIAAAAAgAAAAAAEQAEAAIAEAA=</HashCode>
       <FileName>Customer.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.Office">
-    <Position X="6.25" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Office.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.It">
-    <Position X="8.25" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>It.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.Papper">
-    <Position X="5" Y="8.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Papper.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.Pen">
-    <Position X="7.5" Y="8.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Pen.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.Printer">
-    <Position X="9.25" Y="7.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Printer.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Grupp7_E_Commerce.Headphone">
-    <Position X="11" Y="7.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Headphone.cs</FileName>
-    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShoppingCart" />
+      <Property Name="Orders" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Grupp7_E_Commerce.Business">
-    <Position X="3.25" Y="6" Width="1.5" />
+    <Position X="4.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>Business.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Grupp7_E_Commerce.Private">
-    <Position X="5" Y="6" Width="1.5" />
+    <Position X="6.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Private.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Grupp7_E_Commerce.ProductDescription">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIIAAAAAAAAAEAACgAAAIAAAAAAA=</HashCode>
+      <FileName>ProductDescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grupp7_E_Commerce.ShippingInfo">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAQAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShippingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grupp7_E_Commerce.Orders">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAAEAAAAgAAAQEQAAAAQABAAAAA=</HashCode>
+      <FileName>Orders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShippingInfo" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

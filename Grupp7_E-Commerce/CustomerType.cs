@@ -5,7 +5,9 @@ using System.Text;
 
 namespace Grupp7_E_Commerce
 {
-    abstract public class It : Product
+    public enum CustomerType
     {
+        Business,
+        Private
     }
 }

@@ -5,45 +5,9 @@ using System.Text;
 
 namespace Grupp7_E_Commerce
 {
-    abstract public class Product
+    public class Product
     {
-        public int id
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public string category
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public string name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public string color
+        public int productId
         {
             get
             {
@@ -79,7 +43,7 @@ namespace Grupp7_E_Commerce
             }
         }
 
-        public double weight
+        public ProductDescription ProductDescription
         {
             get
             {
